@@ -146,7 +146,7 @@ public class ExitUI extends JFrame implements IExitUI {
 	
 	private void takeTicket() {
 		controller.ticketTaken();
-		ticketReaderTextField.setText("thank you");//Tried to display final message
+		ticketReaderTextField.setText("");
 	}
 
 	
